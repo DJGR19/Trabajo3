@@ -1,0 +1,36 @@
+﻿  main.cpp
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(10): error C3646: 'descripcion': especificador de invalidación desconocido
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(10): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(16): error C2061: error de sintaxis: identificador 'string'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(21): error C3646: 'getdescripcion': especificador de invalidación desconocido
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(21): error C2059: error de sintaxis: '('
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(21): error C2238: símbolos (token) inesperados delante de ';'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(26): error C2061: error de sintaxis: identificador 'string'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\main.cpp(7): error C2661: 'Factura::Factura': ninguna función sobrecargada acepta 4 argumentos
+  Factura.cpp
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(10): error C3646: 'descripcion': especificador de invalidación desconocido
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(10): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(16): error C2061: error de sintaxis: identificador 'string'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(21): error C3646: 'getdescripcion': especificador de invalidación desconocido
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(21): error C2059: error de sintaxis: '('
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(21): error C2238: símbolos (token) inesperados delante de ';'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(26): error C2061: error de sintaxis: identificador 'string'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(22): error C2511: 'Factura::Factura(int,std::string,int,int)': la función miembro sobrecargada no se ha encontrado en 'Factura'
+  c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(7): note: vea la declaración de 'Factura'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(23): error C2671: 'Factura::{ctor}': las funciones miembro static no tienen punteros 'this'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(23): error C2227: el operando izquierdo de '->numeropieza' debe señalar al tipo class/struct/union/generic
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(24): error C2671: 'Factura::{ctor}': las funciones miembro static no tienen punteros 'this'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(24): error C2227: el operando izquierdo de '->descripcion' debe señalar al tipo class/struct/union/generic
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(25): error C2671: 'Factura::{ctor}': las funciones miembro static no tienen punteros 'this'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(25): error C2227: el operando izquierdo de '->cantidadacomprar' debe señalar al tipo class/struct/union/generic
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(26): error C2671: 'Factura::{ctor}': las funciones miembro static no tienen punteros 'this'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(26): error C2227: el operando izquierdo de '->precio' debe señalar al tipo class/struct/union/generic
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(43): error C2511: 'void Factura::setdescripcion(std::string)': la función miembro sobrecargada no se ha encontrado en 'Factura'
+  c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(7): note: vea la declaración de 'Factura'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(44): error C2671: 'Factura::setdescripcion': las funciones miembro static no tienen punteros 'this'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(44): error C2227: el operando izquierdo de '->descripcion' debe señalar al tipo class/struct/union/generic
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(67): error C2039: 'getdescripcion': no es un miembro de 'Factura'
+  c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.h(7): note: vea la declaración de 'Factura'
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(69): error C2355: 'this': solo se puede hacer referencia a this en funciones miembro no estáticas o inicializadores de miembro de datos no estáticos
+c:\users\florentino garcia\source\repos\tareaejercicios3\receipt\factura.cpp(69): error C2227: el operando izquierdo de '->descripcion' debe señalar al tipo class/struct/union/generic
+  Generando código...
